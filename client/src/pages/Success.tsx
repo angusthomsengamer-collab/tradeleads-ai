@@ -14,6 +14,13 @@ export default function Success() {
   const params = new URLSearchParams(window.location.hash.split("?")[1] ?? "");
   const plan = params.get("plan") ?? "starter";
 
+  // If we're on pplx.app, redirect to the real domain preserving the plan param
+  useEffect(() => {
+    if (window.location.hostname.includes("pplx.app")) {
+      window.location.replace(`https://tradeleadsai.de/#/success?plan=${plan}`);
+    }
+  }, [plan]);
+
   return (
     <div className="min-h-screen bg-background flex items-center justify-center px-4">
       <div className="max-w-md w-full text-center">
