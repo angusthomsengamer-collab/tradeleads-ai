@@ -103,7 +103,7 @@ export async function registerRoutes(httpServer: Server, app: Express): Promise<
       if (!(plan in PLANS)) {
         return res.status(400).json({ error: "Invalid plan" });
       }
-      const origin = req.headers.origin ?? "https://tradeleads-ai.pplx.app";
+      const origin = req.headers.origin ?? "https://tradeleadsai.de";
       const url = await createCheckoutSession(
         plan as PlanKey,
         email,

@@ -127,7 +127,7 @@ export async function sendWelcomeEmail(lead: {
               <table cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td align="center">
-                    <a href="https://tradeleads-ai.pplx.app" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:14px 36px;border-radius:8px;letter-spacing:0.2px;">
+                    <a href="https://tradeleadsai.de" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:14px 36px;border-radius:8px;letter-spacing:0.2px;">
                       Zum Dashboard →
                     </a>
                   </td>
@@ -208,7 +208,7 @@ export async function sendAdminNewLeadNotification(lead: {
               <table cellpadding="0" cellspacing="0" width="100%" style="margin-top:24px;">
                 <tr>
                   <td>
-                    <a href="https://tradeleads-ai.pplx.app/#/app" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;padding:12px 28px;border-radius:7px;">
+                    <a href="https://tradeleadsai.de/#/app" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;padding:12px 28px;border-radius:7px;">
                       Im CRM ansehen →
                     </a>
                   </td>
@@ -284,7 +284,7 @@ export async function sendDailyFollowUpDigest(followUps: Array<{
               <table cellpadding="0" cellspacing="0" width="100%" style="margin-top:28px;">
                 <tr>
                   <td>
-                    <a href="https://tradeleads-ai.pplx.app/#/follow-ups" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;padding:13px 30px;border-radius:7px;">
+                    <a href="https://tradeleadsai.de/#/follow-ups" style="display:inline-block;background:#1d4ed8;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;padding:13px 30px;border-radius:7px;">
                       Alle Follow-ups öffnen →
                     </a>
                   </td>
